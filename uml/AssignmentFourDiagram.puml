@@ -1,0 +1,49 @@
+@startuml
+class ListManagement {
+
+
+    +String titleS
+    +ArrayList titleAL
+    +String dateS
+    +ArrayList dateAL
+    +String descriptionS
+    +ArrayList descriptionAL
+    +bool completionCheckB
+    +ArrayList completionCheckAL
+
+    +ArrayList nameFinal
+    +ArrayList countFinal
+
+    +getTitle
+    +setTitle()
+
+    +getDescription()
+    +setDescription()
+
+    +getCompletionCheck()
+    +setCompletionCheck()
+
+    +addToList()
+    +sortList()
+    +removeToList()
+    +printCompleteList()
+    +printIncompleteList()
+}
+
+class ListMoveOperations {
+
+
+    +String readFile
+    +ArrayList tempHolder
+
+    +readFromFile()
+    +writeFromFile()
+}
+
+class Interface {
+
+    +FileManagement Object
+  +everything activated using the FM Object
+}
+
+@enduml
