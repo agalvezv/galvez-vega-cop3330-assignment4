@@ -34,7 +34,9 @@ class ListMoveOperations {
 
 
     +String readFile
-    +ArrayList tempHolder
+    +ArrayList tempHolder1
+    +ArrayList tempHolder2
+    +ArrayList tempHolder3
 
     +readFromFile()
     +writeFromFile()
@@ -42,8 +44,22 @@ class ListMoveOperations {
 
 class Interface {
 
+    newList()
+    addtoList()
+    remfromList()
+    sendtoText()
+    listfromText()
+
     +FileManagement Object
   +everything activated using the FM Object
 }
 
+class List {
+    main()
+    start()
+}
+
+javafx.Application <|-- Interface
+Interface - ListManagement
+Interface - ListMoveOperations
 @enduml
