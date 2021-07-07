@@ -2,14 +2,14 @@
 class ListManagement {
 
 
-    +String titleS
-    +ArrayList titleAL
-    +String dateS
-    +ArrayList dateAL
-    +String descriptionS
-    +ArrayList descriptionAL
-    +bool completionCheckB
-    +ArrayList completionCheckAL
+    -String titleS
+    -ArrayList titleAL
+    -String dateS
+    -ArrayList dateAL
+    -String descriptionS
+    -ArrayList descriptionAL
+    -bool completionCheckB
+    -ArrayList completionCheckAL
 
     +ArrayList nameFinal
     +ArrayList countFinal
@@ -24,7 +24,7 @@ class ListManagement {
     +setCompletionCheck()
 
     +addToList()
-    +sortList()
+    -sortList()
     +removeToList()
     +printCompleteList()
     +printIncompleteList()
