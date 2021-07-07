@@ -7,6 +7,7 @@ package ucf.assignments;
 
 public class Interface {
 
+    //list of list variable will manage all lists in play
     //this is the application center
     //main will comme into existence here
 
@@ -32,13 +33,30 @@ public class Interface {
     //single and multiple read to external storage will use same function
     //List Move Operations class will be called with this list
     //appropriate text file will be created
+    //appropriate information will be displayed on UI
 
     //one function will represent the button that allows to receive single+ list
     //single and multiple read to external storage will use same function
+    //two functions, same esssential logic
+    //list receiving from multiple list will use loop that grabs from each object to properly receive correct information
     //this will all go into the same list
+    //display will be through UI
+
     //List Move Operations class will be called with this list
+    //function that calls function from list move operations
     //will draw from the appropriate text file
-    //asking for the name of the text file will come from this side
+    //asking for the name of the text file will come from this side using scanner
     //scan in a new with a string variable,
     //this will be sent to list move operations when the function is called
+    //appropriate information will be displayed on UI
+
+    /*
+
+    newList() will exist here
+    //this will use the function from list management to make a new list but will act as the middle man between there and the user interface
+    addtoList()
+     //this will use the function from list management to make add to a list but will act as the middle man between there and the user interface
+    remfromList()
+    //this will use the function from list management to make remove from a list but will act as the middle man between there and the user interface
+     */
 }
