@@ -2,7 +2,7 @@ package ucf.assignments;
 
 /*
  *  UCF COP3330 Summer 2021 Assignment 4 Solution
- *  Copyright 2021 alex g-v
+ *  Copyright 2021 alexandro galvez-vega
  */
 
 import javafx.application.Application;
