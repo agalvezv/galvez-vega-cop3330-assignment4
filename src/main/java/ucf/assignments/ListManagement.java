@@ -47,8 +47,9 @@ public class ListManagement {
     //obviously as an item is taken from the list everything else must be removed
 
     //function edit array lists
-    //loop to parse through and find a match for what needs to change,
-    //compare it to a scanned string
+    //as the lists are going to be sorted a binary search will be used to search for the appropriate match
+    //the list will be compared to a
+    //scanned in string
     //if no match is found print that nothing is found
     //if a match /is/ found then edit the information of the specific variable
     //replace old variable with new variable
