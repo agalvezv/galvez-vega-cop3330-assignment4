@@ -44,6 +44,9 @@ class ListMoveOperations {
 
 class Interface {
 
+    main()
+    start()
+
     newList()
     addtoList()
     remfromList()
@@ -54,10 +57,7 @@ class Interface {
   +everything activated using the FM Object
 }
 
-class List {
-    main()
-    start()
-}
+
 
 javafx.Application <|-- Interface
 Interface - ListManagement

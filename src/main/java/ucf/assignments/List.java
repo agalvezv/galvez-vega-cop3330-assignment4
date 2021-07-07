@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class List extends Application {
 
-
+    //This class is no longer to be in use. Moved everything into interface.
 
     //This will be for the launching of the UI
     public static void main(String[] args) {

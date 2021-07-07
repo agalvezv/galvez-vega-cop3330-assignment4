@@ -23,6 +23,7 @@ public class ListManagement {
     //this can be implemented simply with using the add functionality
 
     //function to sort list
+    //sort will be a private functino and used internally in list management
     //most likely I will bring in java.util.Collections
     //and sort using its sort option for the titles and
     //using a loop to adjust description and due date
@@ -30,7 +31,7 @@ public class ListManagement {
     //function to remove from the array list
     //this will be implemented with the remove function that is part of the array list
 
-    //function edit array list
+    //function edit array lists
     //loop to parse through and find a match for what needs to change,
     //compare it to a scanned string
     //if no match is found print that nothing is found
@@ -38,7 +39,7 @@ public class ListManagement {
     //replace old variable with new variable
 
 
-    //function for  list completion
+    //function for  lists completion
     //bool in the array list is set to false if the item is incomplete
     //use a loop to check for a specific match
     //as things will be organize it might be possible to use a binary search
